@@ -1,0 +1,35 @@
+9.7 Consider the gasoline mileage data in Table B.3.
+1.	Does the correlation matrix give any indication of multicollinearity?
+2.	Calculate the variance inflation factors and the condition number of X′X. Is there any evidence of multicollinearity?
+
+9.13 Analyze the fuel consumption data in Table B.18 for multicollinearity.
+
+9.14 Analyze the wine quality of young red wines data in Table B.19for multicollinearity.
+
+9.15 Analyze the methanol oxidation data in Table B.20 for multicollinearity.
+
+9.19 Estimate the parameters in a model for the gasoline mileage data in Table B.3 using ridge regression.
+1.	Use the ridge trace to select an appropriate value of k. Is the resulting model adequate?
+2.	How much inflation in the residual sum of squares has resulted from the use of ridge regression?
+3.	How much reduction in R2 has resulted from the use of ridge regression?
+
+9.20 Estimate the parameters in a model for the gasoline mileage data in Table B.3 using ridge regression with the value of kdetermined by Eq. (9.8). Does this model differ dramatically from the one developed in Problem 9.19?
+
+10.1 Consider the National Football League data in Table B.1.
+1.	Use the forward selection algorithm to select a subset regression model.
+2.	Use the backward elimination algorithm to select a subset regression model.
+3.	Use stepwise regression to select a subset regression model.
+4.	Comment on the final model chosen by these three procedures.
+
+10.2 Consider the National Football League data in Table B.1. Restricting your attention to regressors x1 (rushing yards), x2 (passing yards), x4 (field goal percentage), x7 (percent rushing), x8 (opponents' rushing yards), and x9 (opponents' passing yards), apply the all-possible-regressions procedure. Evaluate R2p, Cp, and MSRes for each model. Which subset of regressors do you recommend?.
+
+10.14 Table B.11 presents data on the quality of Pinot Noir wine.
+1.	Build an appropriate regression model for quality y using the all-possible-regressions approach. Use Cp as the model selection criterion, and incorporate the region information by using indicator variables.
+2.	For the best two models in terms of Cp, investigate model adequacy by using residual plots. Is there any practical basis for selecting between these models?
+3.	Is there any difference between the two models in part b in terms of the PRESS statistic?
+
+10.15 Use the wine quality data in Table B.11 to construct a regression model for quality using the stepwise regression approach. Compare this model to the one you found in Problem 10.4, part a.
+
+10.16 Rework Problem 10.14, part a, but exclude the region information.
+1.	Comment on the difference in the models you have found. Is there indication that the region information substantially improves the model?
+2.	Calculate confidence intervals as mean quality for all points in the data set using the models from part a of this problem and Problem 10.14, part a. Based on this analysis, which model would you prefer?
