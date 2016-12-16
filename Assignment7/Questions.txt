@@ -1,0 +1,51 @@
+11.1 Consider the regression model developed for the National Football League data in Problem 3.1.
+1.	Calculate the PRESS statistic for this model. What comments can you make about the likely predictive performance of this model?
+2.	Delete half the observations (chosen at random), and refit the regression model. Have the regression coefficients changed dramatically? How well does this model predict the number of games won for the deleted observations?
+3.	Delete the observation for Dallas, Los Angeles, Houston, San Francisco, Chicago, and Atlanta and refit the model. How well does this model predict the number of games won by these teams?
+
+11.2 Split the National Football League data used in Problem 3.1 into estimation and prediction data sets. Evaluate the statistical properties of these two data sets. Develop a model from the estimation data and evaluate its performance on the prediction data. Discuss the predictive performance of this model.
+
+11.3 Calculate the PRESS statistic for the model developed from the estimation data in Problem 11.2. How well is the model likely to predict? Compare this indication of predictive performance with the actual performance observed in Problem 11.2.
+
+11.11 Refer to Problem 11.2. What are the standard errors of the regression coefficients for the model developed from the estimation data? How do they compare with the standard errors for the model in Problem 3.5 developed using all the data?
+
+11.12 Refer to Problem 11.2. Develop a model for the National Football League data using the prediction data set.
+1.	How do the coefficients and estimated values compare with those quantities for the models developed from the estimation data?
+2.	How well does this model predict the observations in the original estimation data set?
+
+13.1 The table below presents the test-firing results for 25 surface-to-air antiaircraft missiles at targets of varying speed. The result of each test is either a hit (y = 1) or a miss (y = 0).
+ 
+1.	Fit a logistic regression model to the response variable y. Use a simple linear regression model as the structure for the linear predictor.
+2.	Does the model deviance indicate that the logistic regression model from part a is adequate?
+3.	Provide an interpretation of the parameter β1 in this model.
+4.	Expand the linear predictor to include a quadratic term in target speed. Is there any evidence that this quadratic term is required in the model?
+
+13.2 A study was conducted attempting to relate home ownership to family income. Twenty households were selected and family income was estimated, along with information concerning home ownership (y = 1 indicates yes and y = 0 indicates no). The data are shown below.
+ 
+1.	Fit a logistic regression model to the response variable y. Use a simple linear regression model as the structure for the linear predictor.
+2.	Does the model deviance indicate that the logistic regression model from part a is adequate?
+3.	Provide an interpretation of the parameter β1 in this model.
+4.	Expand the linear predictor to include a quadratic term in income. Is there any evidence that this quadratic term is required in the model?
+
+13.5 A study was performed to investigate new automobile purchases. A sample of 20 families was selected. Each family was surveyed to determine the age of their oldest vehicle and their total family income. A follow-up survey was conducted 6 months later to determine if they had actually purchased a new vehicle during that time period (y = 1 indicates yes and y = 0 indicates no). The data from this study are shown in the following table.
+ 
+1.	Fit a logistic regression model to the data.
+2.	Does the model deviance indicate that the logistic regression model from part a is adequate?
+3.	Interpret the model coefficients β1 and β2.
+4.	What is the estimated probability that a family with an income of $45,000 and a car that is 5 years old will purchase a new vehicle in the next 6 months?
+5.	Expand the linear predictor to include an interaction term. Is there any evidence that this term is required in the model?
+6.	For the model in part a, find statistics for each individual model parameter.
+7.	Find approximate 95% confidence intervals on the model parameters for the logistic regression model from part a.
+
+13.10?Reconsider the model for the automobile purchase data from Problem 13.5, part a. Construct plots of the deviance residuals from the model and comment on these plots. Does the model appear satisfactory from a residual analysis viewpoint?
+
+13.25 On 28 January 1986 the space shuttle Challenger was destroyed in an explosion shortly after launch from Cape Kennedy. The cause of the explosion was eventually identified as catastrophic failure of the O-rings on the solid rocket booster. The failure likely occurred because the O-ring material was subjected to a lower temperature at launch (31°F) than was appropriate. The material and the solid rocket joints had never been tested at temperatures this low. Some O-ring failures had occurred during other shuttle launches (or engine static tests). The failure data observed prior to the Challenger launch is shown in the following table.
+ 
+1.	Fit a logistic regression model to these data. Construct a graph of the data and display the fitted model. Discuss how well the model fits the data.
+2.	Calculate and interpret the odds ratio.
+3.	What is the estimated failure probability at 50°F?
+4.	What is the estimated failure probability at 75°F?
+5.	What is the estimated failure probability at 31°F? Notice that there is extrapolation involved in obtaining this estimate. What influence would that have on your recommendation about launching the space shuttle?
+6.	Calculate and analyze the deviance residuals for this model.
+7.	Add a quadratic term in temperature to the logistic regression model in part a. Is there any evidence that this term improves the model?
+
