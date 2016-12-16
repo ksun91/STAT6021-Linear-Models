@@ -1,0 +1,14 @@
+6.12 Table B.11 contains data on the quality of Pinot Noir wine. Fit a regression model using clarity, aroma, body, flavor, and oakiness as the regressors. Investigate this model for influential observations and comment on your findings.
+
+6.13 Table B.12 contains data collected on heat treating of gears. Fit a regression model to these data using all of the regressors. Investigate this model for influential observations and comment on your findings.
+
+6.14 Table B.13 contains data on the thrust of a jet turbine engine. Fit a regression model to these data using all of the regressors. Investigate this model for influential observations and comment on your findings.
+
+6.15 Table B.14 contains data concerning the transient points of an electronic inverter. Fit a regression model to all 25 observations but only use x1 − x4 as the regressors. Investigate this model for influential observations and comment on your findings.
+
+8.5 Consider the automobile gasoline mileage data in Table B.3.
+1.	Build a linear regression model relating gasoline mileage y to vehicle weight x10 and the type of transmission x11. Does the type of transmission significantly affect the mileage performance?
+2.	Modify the model developed in part a to include an interaction between vehicle weight and the type of transmission. What conclusions can you draw about the effect of the type of transmission on gasoline mileage? Interpret the parameters in this model.
+
+8.6 Consider the National Football League data in Table B.1. Build a linear regression model relating the number of games won to the yards gained rushing by opponents x8, the percentage of rushing plays x7, and a modification of the turnover differential x5. Specifically let the turnover differential be an indicator variable whose value is determined by whether the actual turnover differential is positive, negative, or zero. What conclusions can you draw about the effect of turnovers on the number of games won?
+
