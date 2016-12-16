@@ -1,0 +1,15 @@
+2.20 Consider the fuel consumption data given in Table B.18. The automotive engineer believes that the initial boiling point of the fuel controls the fuel consumption. Perform a thorough analysis of these data. Do the data support the engineer's belief?
+
+2.21 Consider the wine quality of young red wines data in Table B.19. The wine-makers believe that the sulfur content has a negative impact on the taste (thus, the overall quality) of the wine. Perform a thorough analysis of these data. Do the data support the winemakers'belief?
+
+2.22 Consider the methanol oxidation data in Table B.20. The chemist believes that ratio of inlet oxygen to the inlet methanol controls the conversion process. Perform a through analysis of these data. Do the data support the chemist's belief?
+
+2.30 Consider the data in Problem 2.12 and assume that steam usage and average temperature are jointly normally distributed.
+1.	Find the correlation between steam usage and monthly average ambient temperature.
+2.	Test the hypothesis that ρ = 0.
+3.	Test the hypothesis that ρ = 0.5.
+4.	Find a 99% CI for ρ.
+5.	
+2.31 Prove that the maximum value of R2 is less than 1 if the data contain repeated (different) observations on y at the same value of x.
+
+2.32 Consider the simple linear regression model
