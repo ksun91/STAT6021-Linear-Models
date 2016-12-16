@@ -1,0 +1,24 @@
+PROBLEMS
+2.1 Table B.1 gives data concerning the performance of the 26 National Football League teams in 1976. It is suspected that the number of yards gained rushing by opponents (x8) has an effect on the number of games won by a team (y).
+1.	Fit a simple linear regression model relating games won y to yards gained rushing by opponents x8.
+2.	Construct the analysis-of-variance table and test for significance of regression.
+3.	Find a 95% CI on the slope.
+4.	What percent of the total variability in y is explained by this model?
+5.	Find a 95% CI on the mean number of games won if opponents'yards rushing is limited to 2000 yards.
+
+2.2 Suppose we would like to use the model developed in Problem 2.1 to predict the number of games a team will win if it can limit opponents'yards rushing to 1800 yards. Find a point estimate of the number of games won when x8 = 1800. Find a 90% prediction interval on the number of games won.
+
+2.4 Table B.3 presents data on the gasoline mileage performance of 32 different automobiles.
+1.	Fit a simple linear regression model relating gasoline mileage y (miles per gallon) to engine displacement xl (cubic inches).
+2.	Construct the analysis-of-variance table and test for significance of regression.
+3.	What percent of the total variability in gasoline mileage is accounted for by the linear relationship with engine displacement?
+4.	Find a 95% CI on the mean gasoline mileage if the engine displacement is 275 in. 3
+5.	Suppose that we wish to predict the gasoline mileage obtained from a car with a 275-in.3 engine. Give a point estimate of mileage. Find a 95% prediction interval on the mileage.
+6.	Compare the two intervals obtained in parts d and e. Explain the difference between them. Which one is wider, and why?
+
+2.5 Consider the gasoline mileage data in Table B.3. Repeat Problem 2.4 (parts a, b, and c) using vehicle weight x10 as the regressor variable. Based on a comparison of the two models, can you conclude that x1 is a better choice of regressor than x10?
+
+2.12 The number of pounds of steam used per month at a plant is thought to be related to the average monthly ambient temperature. The past year's usages and temperatures follow.
+
+2.29 Suppose that we are fitting a straight line and wish to make the standard error of the slope as small as possible. Suppose that the “region of interest” for x is −1 ≤ x ≤ 1. Where should the observations x1, x2,…,xn be taken? Discuss the practical aspects of this data collection plan.
+
