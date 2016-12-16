@@ -1,0 +1,61 @@
+4.2 Consider the multiple regression model fit to the National Football League team performance data in Problem 3.1.
+1.	Construct a normal probability plot of the residuals. Does there seem to be any problem with the normality assumption?
+2.	Construct and interpret a plot of the residuals versus the predicted response.
+3.	Construct plots of the residuals versus each of the regressor variables. Do these plots imply that the regressor is correctly specified?
+4.	Construct the partial regression plots for this model. Compare the plots with the plots of residuals versus regressors from part c above. Discuss the type of information provided by these plots.
+5.	Compute the studentized residuals and the R-student residuals for this model. What information is conveyed by these scaled residuals?
+
+4.4 Consider the multiple regression model fit to the gasoline mileage data in Problem 3.5.
+1.	Construct a normal probability plot of the residuals. Does there seem to be any problem with the normality assumption?
+2.	Construct and interpret a plot of the residuals versus the predicted response.
+3.	Construct and interpret the partial regression plots for this model.
+4.	Compute the studentized residuals and the R-student residuals for this model. What information is conveyed by these scaled residuals?
+
+4.8 Consider the simple linear regression model fit to the steam plant data in Problem 2.12.
+1.	Construct a normal probability plot of the residuals. Does there seem to be any problem with the normality assumption?
+2.	Construct and interpret a plot of the residuals versus the predicted response.
+3.	Suppose that the data were collected in the order shown in the table. Plot the residuals versus time order and comment on the plot.
+
+4.13 Problem 3.8 asked you to fit two different models to the chemical process data in Table B.5. Perform appropriate residual analyses for both models. Discuss the results of these analyses. Calculate the PRESS statistic for both models. Do the residual plots and PRESS provide any insight regarding the best choice of model for the data?
+
+4.25 Consider the life expectancy data given in Problem 3.16 and Table B.16.
+1.	For each model construct a normal probability plot of the residuals from the full model. Does there seem to be any problem with the normality assumption?
+2.	For each model construct and interpret a plot of the residuals versus the predicted response.
+
+4.29 Consider the methanol oxidation data in Table B.20. Perform a thorough analysis of these data. What conclusions do you draw from this residual analysis?
+
+5.2 The following table gives the vapor pressure of water for various temperatures.
+Temperature (°K)	Vapor Pressure (mm Hg)
+273	4.6
+283	9.2
+293	17.5
+303	31.8
+313	55.3
+323	92.5.
+333	149.4
+343	233.7
+353	355.1
+363	525.8
+373	760.0
+1.	Plot a scatter diagram. Does it seem likely that a straight-line model will be adequate?
+2.	Fit the straight-line model. Compute the summary statistics and the residual plots. What are your conclusions regarding model adequacy?
+3.	From physical chemistry the Clausius-Clapeyron equation states that
+ 
+Repeat part b using the appropriate transformation based on this information.
+
+5.5 A glass bottle manufacturing company has recorded data on the average number of defects per 10,000 bottles due to stones (small pieces of rock embedded in the bottle wall) and the number of weeks since the last furnace overhaul. The data are shown below.
+ 
+1.	Fit a straight-line regression model to the data and perform the standard tests for model adequacy.
+2.	Suggest an appropriate transformation to eliminate the problems encountered in part a. Fit the transformed model and check for adequacy.
+
+5.7 Consider the methanol oxidation data in Table B.20. Perform a thorough analysis of these data. Recall the thorough residual analysis of these data from Exercise 4.29. Would a transformation improve this analysis? Why or why not? If yes, perform the transformation and repeat the full analysis.
+
+5.9 Consider the clathrate formation data in Table B.8.
+1.	Perform a thorough residual analysis of these data.
+2.	b. Identify the most appropriate transformation for these data. Fit this model and repeat the residual analysis.
+
+5.10 Consider the pressure drop data in Table B.9.
+1.	Perform a thorough residual analysis of these data.
+2.	Identify the most appropriate transformation for these data. Fit this model and repeat the residual analysis.
+
+
